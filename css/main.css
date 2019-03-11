@@ -5,3 +5,103 @@
 {
 	display: none;
 }
+
+@font-face
+{
+	font-family: 'akzidenzgrotesk-light';
+	src: url('../fonts/akzidenzgrotesk-light-webfont.woff') format('woff'),
+		 url('../fonts/akzidenzgrotesk-light-webfont.woff2') format('woff2');      
+}
+
+@font-face
+{
+	font-family: 'bebasneue-bold';
+	src: url('../fonts/bebasneue-bold-webfont.woff') format('woff'),
+		url('../fonts/bebasneue-bold-webfont.woff2') format('woff2');
+}
+
+@font-face
+{
+	font-family: 'bebasneue-regular';
+	src: url('../fonts/bebasneue-regular-webfont.woff2') format('woff2'),
+		 url('../fonts/bebasneue-regular-webfont.woff') format('woff');
+}
+
+body
+{
+	background-color: #2f2938;
+	font-family: 'akzidenzgrotesk-light';
+	font-size: 20px;
+
+
+}
+
+
+
+
+#logoDiv
+{
+	width: 180px;
+	height: 41.41px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+#contentBox
+{
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#malek
+{
+	width: 240px;
+	height: 357.286px;
+	margin-left: 134px;
+	margin-top: 20px;
+	
+}
+
+.nameTitle
+{
+	font-family: 'bebasneue-regular';
+	color: #c6cbd1;
+	font-size: 35px;
+	margin-top: 20px;
+}
+
+#logoSlash
+{
+	font-family: 'bebasneue-bold';
+	color: #2f2938;
+}
+
+#bioMa
+{
+	width: 210.289px;
+
+}
+
+#slashLogo
+{
+	width: 197.506px;
+	height: 401.9px
+}
+
+#cindy
+{
+	width: 239px;
+	height: 356px;
+	margin-right: 134px;
+	margin-top: 20px;
+	
+}
+#bioCi
+{
+	width: 210.289px;
+}
+
+
+
