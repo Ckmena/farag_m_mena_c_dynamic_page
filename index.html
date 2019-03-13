@@ -1,47 +1,52 @@
 <!doctype html>
-<html lang="en">
+<html lang=en>
+
 <head>
-	<meta charset="UTF-8">
-	<title>MALEK / CINDY</title>
+	<meta charset="utf-8">
+		<title>
+			Malek and Cindy's Bio
+		</title>
+	<!--CSS RESET-->
+	<link rel="stylesheet" type="text/css" href="css/reset.css"> 
+	<!--CSS STYLING-->
+	<link rel="stylesheet" type="text/css" href="css/main.css"> 
+	<!-- GOOGLE FONTS LINK-->
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 
-
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
+
 <body>
-	<header>
-		<div id="logoDiv">
-			<img src="images/logo.svg" id="logo" alt="logo">
+	<h1 class='hidden'>Malek and Cindy's Bio Site</h1>
+	<div id='siteContainer'>
+		<div id='headBox'>
+			<div class='imgBox' id='boxC'>
+				<h2>Malek Farag</h2>
+				<img src="images/malek.jpg" id='malek'>
+			</div>
+			
+			<div class='imgBox' id='boxC'>
+				<h2>Cindy Mena</h2>
+				<img src="images/cindy.jpg" id='cindy'>
+			</div>
 		</div>
-	</header>
-	<section id="contentBox">
-		<h2 class="hidden">Content section</h2>
-		<div id="malekPhoto">
-			<img src="images/malek.png" id="malek">
 
-		</div>
-		<div id="bioMa">
-			<h1 class="nameTitle">Malek Farag <span class="logoSlash">/</span></h1>
-			<p >Hey! I'm Malek. I'm 18 years old. I was born and raised here, in London. Though, I'm half french and half arabic. 
-Some of my interests are soccer, music and video games. I've been playing soccer since a very young age. I love the sport! Music and video games provide peace to my semi-stressful life. It's nice to kick back, place some games and listen to some tunes after a long day</p>
-		</div>
-		<div id="slashLogo">
-			<img src="images/slash_logo.svg">
-		</div>
-		
-		<div id="bioCi">
-			<h1 class="nameTitle">Cindy Mena <span class="logoSlash">/</span></h1>
-			<p >Hello my name is Cindy Mena. I’m from El Salvador. I recently move to Canada and I’m loving it. I graduated as a graphic designer in 2011. I like to watch movies on my spread time and also going out and spend time with friends.
-I like being outdoors enjoying the scenery of this country.</p>
-		</div>
-		<div id="cindySec">
-			<img src="images/cindy.jpg" id="cindy">
+		<div id='line'></div>
 
+		<div class='bio gone' id='bioC'>
+			<!-- ADD P TAG HERE -->
 		</div>
-	</section>
-	
 
-	<script src="js/main.js"></script> 
+		<div class='bio gone' id='bioM'>
+			<p>Hey! I'm<br><span>Malek Farag.</span><br><br>I'm a French-Arabic-Canadian IDP student at Fanshawe College.<br><br>
+			I like to play sports and listen to music for fun. Music gives me peace of mind whilst completing assignments.</p>
+		</div>
 
+
+	</div>
+
+
+<!--JAVASCRIPT LINK-->
+<script src="js/main.js" type="text/javascript"></script>
 </body>
+
 </html>
