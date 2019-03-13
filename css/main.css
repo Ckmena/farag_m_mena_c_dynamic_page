@@ -1,107 +1,90 @@
-@charset "UTF-8";
-/*CSS Doc*/
+@charset "utf-8";
+/* CSS Document */
 
-.hidden
-{
+.hidden{
 	display: none;
 }
 
-@font-face
-{
-	font-family: 'akzidenzgrotesk-light';
-	src: url('../fonts/akzidenzgrotesk-light-webfont.woff') format('woff'),
-		 url('../fonts/akzidenzgrotesk-light-webfont.woff2') format('woff2');      
+body{
+	font-family: 'Roboto Slab', serif, arial;
 }
 
-@font-face
-{
-	font-family: 'bebasneue-bold';
-	src: url('../fonts/bebasneue-bold-webfont.woff') format('woff'),
-		url('../fonts/bebasneue-bold-webfont.woff2') format('woff2');
+#siteContainer{
+	margin: 0 auto;
+	width: 1000px;
 }
 
-@font-face
-{
-	font-family: 'bebasneue-regular';
-	src: url('../fonts/bebasneue-regular-webfont.woff2') format('woff2'),
-		 url('../fonts/bebasneue-regular-webfont.woff') format('woff');
-}
-
-body
-{
-	background-color: #2f2938;
-	font-family: 'akzidenzgrotesk-light';
-	font-size: 20px;
-
-
-}
-
-
-
-
-#logoDiv
-{
-	width: 180px;
-	height: 41.41px;
-	margin-top: 20px;
-	margin-left: 20px;
-}
-
-#contentBox
-{
-	background-color: #ffffff;
+#headBox{
+	margin: 0 auto;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	margin-top: 50px;
+	padding-bottom: 50px;
 }
 
-#malek
-{
-	width: 240px;
-	height: 357.286px;
-	margin-left: 134px;
-	margin-top: 20px;
-	
+#headBox img{
+	width: 350px;
+	height: 350px;
+	background-color: #ffffff;
+	border-radius: 3px;
+	transition: all .3s ease;
 }
 
-.nameTitle
-{
-	font-family: 'bebasneue-regular';
-	color: #c6cbd1;
-	font-size: 35px;
-	margin-top: 20px;
+#headBox img:hover{
+	box-sizing: border-box;
+	border: solid 3px #333;
 }
 
-#logoSlash
-{
-	font-family: 'bebasneue-bold';
-	color: #2f2938;
+.imgBox h2{
+	text-align: center;
+/*	font-weight: bold;*/
+	font-size: 28px;
+	letter-spacing: -1px;
+	margin-bottom: 2px;
+	padding: 3px;
+	color: #333;
+	border-top: solid 3px #333;
+}
+.imgBox{
+	margin: 0 auto;
 }
 
-#bioMa
-{
-	width: 210.289px;
-
+.bio{
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 30px;
+	font-size: 36px;
+	letter-spacing: 1px;
+	color: #333;
+	line-height: 32px;
+	transition: position .3s ease;
 }
 
-#slashLogo
-{
-	width: 197.506px;
-	height: 401.9px
+.bio span{
+	font-weight: bold;
 }
 
-#cindy
-{
-	width: 239px;
-	height: 356px;
-	margin-right: 134px;
-	margin-top: 20px;
-	
-}
-#bioCi
-{
-	width: 210.289px;
+#line{
+	width: 100%;
+	height: 5px;
+	border-radius: 10px;
+	background-color: #333;
+	position: absolute;
+	width: 1000px;
 }
 
+.gone{
+	position: absolute;
+	left: 710px;
+	bottom: 1200px;
+	display: block;
+	transition: position .3s ease;
+}
 
-
+.expand{
+	min-width: 375px;
+	min-height: 375px;
+	border: solid 3px #333;
+	transition: width .3s ease;
+	transition: height .3s ease;
+}
