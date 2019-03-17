@@ -9,10 +9,36 @@ body{
 	font-family: 'Roboto Slab', serif, arial;
 }
 
+button{
+	background-color: #ffffff;
+	border: solid 0px; 
+}
+
+#topBar{
+	background-color: #333;
+	height: 20px;
+}
+
 #siteContainer{
 	margin: 0 auto;
 	width: 1000px;
 }
+
+h1{
+	text-align: center;
+	margin-top: 30px;
+	font-size: 36px;
+	color: #333;
+}
+
+#desc{
+	text-align: center;
+	color: #333;
+	opacity: .8;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
 
 #headBox{
 	margin: 0 auto;
@@ -22,37 +48,52 @@ body{
 	padding-bottom: 50px;
 }
 
-#headBox img{
-	width: 350px;
-	height: 350px;
+#aviBox{
+	display: block;
+	width: 400px;
+	height: 400px;
 	background-color: #ffffff;
 	border-radius: 3px;
+	margin-bottom: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	border: solid 3px #333;
 	transition: all .3s ease;
 }
 
-#headBox img:hover{
+/*#aviBox:hover{
 	box-sizing: border-box;
 	border: solid 3px #333;
-}
+}*/
 
-.imgBox h2{
+#headBox h2{
 	text-align: center;
 /*	font-weight: bold;*/
-	font-size: 28px;
+	font-size: 32px;
 	letter-spacing: -1px;
 	margin-bottom: 2px;
 	padding: 3px;
 	color: #333;
 	border-top: solid 3px #333;
 }
-.imgBox{
+.button{
 	margin: 0 auto;
+	transition: .2s ease all;
+}
+
+.button:hover{
+	background-color: whitesmoke;
+	position: relative;
+	bottom: 1px;
 }
 
 .bio{
+	position: relative;
+	left: 30px;
 	width: 500px;
 	margin: 0 auto;
-	margin-top: 30px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 	font-size: 36px;
 	letter-spacing: 1px;
 	color: #333;
@@ -69,17 +110,15 @@ body{
 	height: 5px;
 	border-radius: 10px;
 	background-color: #333;
-	position: absolute;
-	width: 1000px;
 }
 
-.gone{
+/*.gone{
 	position: absolute;
 	left: 710px;
 	bottom: 1200px;
 	display: block;
 	transition: position .3s ease;
-}
+}*/
 
 .expand{
 	min-width: 375px;
@@ -87,4 +126,8 @@ body{
 	border: solid 3px #333;
 	transition: width .3s ease;
 	transition: height .3s ease;
+}
+
+.show{
+	display: block;
 }
